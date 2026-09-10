@@ -6,7 +6,7 @@ public class playSFX : MonoBehaviour
     // I can tell you what these mean generally and I changed things around from what I originally used for this assignment
 
     public AudioClip breakSound;
-    private AudioSource groundAudio;
+    public AudioSource groundAudio;
 
     //these are some parts I actually don't get a lot! I know Audio clip is what I use as a place on the script to link the .wav file
     // AudioSource is how I attach that component to this script
